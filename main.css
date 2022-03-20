@@ -40,6 +40,7 @@ a:visited {
 .intro__heading {
   color: #55a5f0;
   font-size: 50px;
+  align-items: center;
 }
 .intro__sub-heading {
   font-family: "Dancing Script", cursive;
@@ -104,8 +105,11 @@ a:visited {
 }
 
 .outro-container {
-  height: 50vh;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
 }
