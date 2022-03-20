@@ -37,11 +37,14 @@
 }
 
 .intro{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     &__heading {
         color: $color-primary-light;
-        font-size: 50px;    
+        font-size: 50px;  
+        align-items: center;  
     }
 
     &__sub-heading {
