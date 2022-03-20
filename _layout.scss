@@ -1,22 +1,41 @@
 .header{
-    height: 70vh;
+    position: relative;
+    top: 10px;
+    //height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    p{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
 }
 
-.contact {
-    height: 50vh;
-    background-color: $color-primary;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+// .contact {
+//     height: 50vh;
+//     background-color: $color-primary;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+.secondary-title {
+    position: relative;
+    top: 20px;
+    p {
+        text-align: center;
+    }
 }
+
+
 
 .outro-container {
     // height: 50vh;
     // display: flex;
     // justify-content: center;
+    position: relative;
     align-items: center;
     width: 100%;
     display: grid;
@@ -24,13 +43,30 @@
     grid-template-rows: 1fr 1fr;
     gap: 10px;
     padding: 20px;
+    p {
+        text-align: center;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        //width: 50%;
+    }
 
-    div {
-        // height: 100px;
-        //background-color: crimson;
+    // div {
+    //     // height: 100px;
+    //     //background-color: crimson;
         
         
-    }    
+    // }    
 
 }
 
+.secondary-button {
+    position: relative;
+    top: 10px;
+    //height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

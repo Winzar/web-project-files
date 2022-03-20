@@ -90,21 +90,29 @@ a:visited {
 }
 
 .header {
-  height: 70vh;
+  position: relative;
+  top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.header p {
+  text-align: center;
+}
+.header h1 {
+  text-align: center;
+}
 
-.contact {
-  height: 50vh;
-  background-color: #fffcdd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.secondary-title {
+  position: relative;
+  top: 20px;
+}
+.secondary-title p {
+  text-align: center;
 }
 
 .outro-container {
+  position: relative;
   align-items: center;
   width: 100%;
   display: grid;
@@ -112,4 +120,21 @@ a:visited {
   grid-template-rows: 1fr 1fr;
   gap: 10px;
   padding: 20px;
+}
+.outro-container p {
+  text-align: center;
+}
+.outro-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondary-button {
+  position: relative;
+  top: 10px;
+  bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
