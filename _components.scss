@@ -8,9 +8,10 @@
 }
 
 .logo {
-    font-family: $font-display;
-    font-size: 20px;
-    color: $color-white;
+    
+    // font-family: $font-display;
+    // font-size: 20px;
+    // color: $color-white;
   }
 
 .button{
@@ -23,23 +24,23 @@
     color: $color-white;
     border: none;
 
-    &--form{
-        width: 100%;
-        background-color: $color-primary-light;
-    }
+    // &--form{
+    //     width: 100%;
+    //     background-color: $color-primary-light;
+    // }
 
-    &--secondary {
-        background-color: unset;
-        border: 2px solid $color-primary;
-        color: $color-primary; 
-    }
+    // &--secondary {
+    //     background-color: unset;
+    //     border: 2px solid $color-primary;
+    //     color: $color-primary; 
+    // }
 }
 
 .intro{
     text-align: center;
 
     &__heading {
-        color: $color-primary;
+        color: $color-primary-light;
         font-size: 50px;    
     }
 
@@ -84,10 +85,12 @@
 .footer {
     background-color: $color-primary;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: space-between;
     padding: 20px 40px;
     &__text {
-        color: $color-white;
+        color: $color-black;
         vertical-align: bottom;
     }
 }
