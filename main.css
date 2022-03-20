@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Verdana", sans-serif;
   color: #333333;
 }
 
@@ -14,44 +14,29 @@ a:visited {
 
 .navigation {
   height: 10vh;
-  background-color: #28527a;
+  background-color: #fffcdd;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
-  font-family: "Dancing Script", cursive;
-  font-size: 20px;
-  color: #fafafa;
-}
-
 .button {
   display: block;
   width: 100px;
-  background-color: #f0a500;
+  background-color: #384065;
   text-align: center;
   padding: 10px 20px;
   border-radius: 10px;
   color: #fafafa;
   border: none;
 }
-.button--form {
-  width: 100%;
-  background-color: #55a5f0;
-}
-.button--secondary {
-  background-color: unset;
-  border: 2px solid #28527a;
-  color: #28527a;
-}
 
 .intro {
   text-align: center;
 }
 .intro__heading {
-  color: #28527a;
+  color: #55a5f0;
   font-size: 50px;
 }
 .intro__sub-heading {
@@ -90,13 +75,14 @@ a:visited {
 }
 
 .footer {
-  background-color: #28527a;
+  background-color: #fffcdd;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   padding: 20px 40px;
 }
 .footer__text {
-  color: #fafafa;
+  color: #333333;
   vertical-align: bottom;
 }
 
@@ -109,7 +95,7 @@ a:visited {
 
 .contact {
   height: 50vh;
-  background-color: #28527a;
+  background-color: #fffcdd;
   display: flex;
   justify-content: center;
   align-items: center;
