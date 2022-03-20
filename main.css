@@ -29,6 +29,7 @@ a:visited {
   padding: 10px 20px;
   border-radius: 10px;
   color: #fafafa;
+  font-size: 15px;
   border: none;
 }
 
@@ -133,7 +134,7 @@ a:visited {
 .secondary-button {
   position: relative;
   top: 10px;
-  bottom: 10vh;
+  bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;

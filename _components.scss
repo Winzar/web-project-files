@@ -9,10 +9,10 @@
 
 // .logo {
     
-//     // font-family: $font-display;
-//     // font-size: 20px;
-//     // color: $color-white;
-//   }
+//     font-family: $font-display;
+//     font-size: 20px;
+//     color: $color-white;
+// //   }
 
 .button{
     display: block;
@@ -22,6 +22,7 @@
     padding: 10px 20px;
     border-radius: 10px;
     color: $color-white;
+    font-size: 15px;
     border: none;
 
     // &--form{
@@ -47,16 +48,16 @@
         align-items: center;  
     }
 
-    &__sub-heading {
-        font-family: $font-display;
-        font-size: 25px;
-        margin: 20px 0;
-    }
-
+    // &__sub-heading {
+    //     font-family: $font-display;
+    //     font-size: 25px;
+    //     margin: 20px 0;
+    // }
     &__button {
         margin: 0 auto;
     }
 }
+
 
 .wave{
     vertical-align: top;
@@ -91,7 +92,7 @@
     flex-direction: column;
     align-items: center;
     // justify-content: space-between;
-    padding: 20px 40px;
+    padding: 20px 0px;
     &__text {
         color: $color-black;
         vertical-align: bottom;
